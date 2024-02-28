@@ -1,6 +1,6 @@
 # Reverse tilemap
 
-Builds a [tilemap](https://doc.mapeditor.org/en/stable/reference/json-map-format/) from a target image and a tile image(s)
+Builds a [tilemap](https://doc.mapeditor.org/en/stable/reference/json-map-format/) from a target image and tile image(s)
 
 According to the specifications of the tiled format, tiles can be mirrored vertically, horizontally, and diagonally
 
