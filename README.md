@@ -21,9 +21,6 @@ const tiles_image_paths = [
 const map = make_json_tiled_map_from_image(target_image_path, tiles_image_paths, tile_width, tile_height)
 
 fs.writeFileSync("output.tiled.map.json", JSON.stringify(map))
-
-
-
 ```
 
 ## licenses
