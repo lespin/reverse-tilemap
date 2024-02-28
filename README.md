@@ -32,7 +32,7 @@ fs.writeFileSync("output.tiled.map.json", JSON.stringify(map))
 
 (c) 2024 lespin, GNU GENERAL PUBLIC LICENSE v3
 
-### Image assets in `test/input/`
+### Image assets in `test-assets/`
 
 Assets are public domain
 
