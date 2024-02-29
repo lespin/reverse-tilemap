@@ -23,6 +23,18 @@ const map = make_json_tiled_map_from_image(target_image_path, tiles_image_paths,
 fs.writeFileSync("output.tiled.map.json", JSON.stringify(map))
 ```
 
+### If there is no tile image available
+
+1. run `make_json_tiled_map_from_image` using the target image as tile image
+
+Then, in order to reduce tile image to only used tiles
+
+2. run `make_png_of_used_tiles` to produce an image of unique tiles 
+
+Then
+
+3. run `make_json_tiled_map_from_image` on the initial target image, this time using the tile image produced by step 2
+
 ## licenses
 
 ### Source code in `src/`
