@@ -25,6 +25,14 @@ fs.writeFileSync("output.tiled.map.json", JSON.stringify(map))
 
 ### If there is no tile image available
 
+#### using cli
+
+    node src/cli.js reverse 8 8 target.png target.png > tilemap0.json
+    node src/cli.js simplify tilemap0.json > tiles.png
+    node src/cli.js reverse 8 8 target.png tiles.png > tilemap.json
+
+#### using api
+
 1. run `make_json_tiled_map_from_image` using the target image as tile image
 
 Then, in order to reduce tile image to only used tiles
